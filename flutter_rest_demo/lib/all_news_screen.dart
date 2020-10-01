@@ -94,10 +94,13 @@ class NewsListTile extends StatelessWidget {
 			title: Text(
 				headline,
 				style: TextStyle(fontSize: Theme.of(context).textTheme.headline6.fontSize),
+				maxLines: 5,
 				overflow: TextOverflow.ellipsis,
 			),
 			subtitle: Text(
 				body,
+				maxLines: 1,
+				overflow: TextOverflow.ellipsis,
 			),
 
 		);

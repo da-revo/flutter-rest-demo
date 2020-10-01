@@ -37,7 +37,7 @@ class _ItemScreenState extends State<ItemScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
 			appBar: AppBar(
-				title: Text('Fake News'+widget.givenID.toString()),
+				title: Text('Fake News '+widget.givenID.toString()),
 			),
 			body: _item==null ? Container() : Container(
 				child: SingleChildScrollView(
